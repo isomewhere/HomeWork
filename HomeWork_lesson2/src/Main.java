@@ -10,32 +10,32 @@ public class Main {
         System.out.println(isNegative(0));
         repeatString("Hello", 3);
 
-        System.out.println("9. Проверка високосного года:");
+        System.out.println("Проверка високосного года:");
         System.out.println(isLeapYear(2000));
         System.out.println(isLeapYear(1900));
         System.out.println(isLeapYear(2024));
 
-        System.out.println("10. Замена элементов массива:");
+        System.out.println("Замена элементов массива:");
         int[] binaryArray = {1, 1, 0, 0, 1, 0, 1, 0};
         replaceBinaryArray(binaryArray);
         printArray(binaryArray);
 
-        System.out.println("11. Заполнение массива значениями:");
+        System.out.println("Заполнение массива значениями:");
         int[] hundredArray = new int[100];
         fillArrayWithValues(hundredArray);
         printArray(hundredArray);
 
-        System.out.println("12. Умножение элементов массива на 2:");
+        System.out.println("Умножение элементов массива на 2:");
         int[] specificArray = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
         doubleArrayElements(specificArray);
         printArray(specificArray);
 
-        System.out.println("13. Диагональные элементы матрицы:");
+        System.out.println("Диагональные элементы матрицы:");
         int[][] squareArray = new int[5][5];
         fillDiagonals(squareArray);
         print2DArray(squareArray);
 
-        System.out.println("14. Создание массива с заданным значением:");
+        System.out.println("Создание массива с заданным значением:");
         int[] arrayWithValue = createArray(7, 99);
         printArray(arrayWithValue);
 
